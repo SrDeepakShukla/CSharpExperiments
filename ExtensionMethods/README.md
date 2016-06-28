@@ -21,7 +21,7 @@ An extension method is created by declaring a public static class with a public 
         }
     }
 
-	```
+```javascript
 
 This method is designed to take an IEnumerable<T> and a string delimiter, and return a single string which is a delimited list of the items.  The definition looks like a pretty standard static method; the only difference is the this keyword before the first parameter. 
 
@@ -36,7 +36,7 @@ Using 2 ways :
             Console.WriteLine(MyExtensionMethod.ToDelimitedString(Names, ", "));
        
 
-```
+```javascript
 
 *2.Extension method:*
 
@@ -44,7 +44,7 @@ Using 2 ways :
 		    List<string> Names = GetNames();
             Console.WriteLine(Names.ToDelimitedString("_ "));
 
-```
+```javascript
 ## Rules or Guidelines :
 
 1. Extension methods must be public static methods in a public static class.  The class name itself is unimportant.
