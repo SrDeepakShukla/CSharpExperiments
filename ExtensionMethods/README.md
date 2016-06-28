@@ -36,7 +36,7 @@ Using 2 ways :
             Console.WriteLine(MyExtensionMethod.ToDelimitedString(Names, ", "));
        
 
-```javascript
+```
 
 *2.Extension method:*
 
@@ -44,7 +44,7 @@ Using 2 ways :
 		    List<string> Names = GetNames();
             Console.WriteLine(Names.ToDelimitedString("_ "));
 
-```javascript
+```
 ## Rules or Guidelines :
 
 1. Extension methods must be public static methods in a public static class.  The class name itself is unimportant.
