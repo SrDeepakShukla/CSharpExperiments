@@ -28,12 +28,12 @@ This method is designed to take an IEnumerable<T> and a string delimiter, and re
 
 ## Using an Extension Method
 
-There are 2 ways to use esisting method.
+There are 2 ways to use extension method.
 
 *1. standard way:*
 
 ```javascript
-			List<string> Names = GetNames();
+	    List<string> Names = GetNames();
             Console.WriteLine(MyExtensionMethod.ToDelimitedString(Names, ", "));
        
 
@@ -42,7 +42,9 @@ There are 2 ways to use esisting method.
 *2.Extension method:*
 
 ```javascript
-		    List<string> Names = GetNames();
+
+
+            List<string> Names = GetNames();
             Console.WriteLine(Names.ToDelimitedString("_ "));
 
 ```
