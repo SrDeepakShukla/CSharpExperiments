@@ -1,3 +1,5 @@
 # CSharpExperiments
 
-Extension methods allow you to add functionality to existing types by adding new methods without deriving a new subtype. 
+My C Sharp Experiments and practicals.
+
+# Enjot it.  Always Easy....
