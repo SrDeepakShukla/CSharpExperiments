@@ -28,7 +28,8 @@ This method is designed to take an IEnumerable<T> and a string delimiter, and re
 
 ## Using an Extension Method
 
-Using 2 ways :
+There are 2 ways to use esisting method.
+
 *1. standard way:*
 
 ```javascript
