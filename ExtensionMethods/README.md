@@ -21,7 +21,7 @@ An extension method is created by declaring a public static class with a public 
         }
     }
 
-```javascript
+```
 
 This method is designed to take an IEnumerable<T> and a string delimiter, and return a single string which is a delimited list of the items.  The definition looks like a pretty standard static method; the only difference is the this keyword before the first parameter. 
 
