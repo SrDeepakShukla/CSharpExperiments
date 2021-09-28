@@ -31,6 +31,7 @@ namespace ExtensionMethods
     }
     public static class MyExtensionMethod
     {
+        //adding a comment
         public static string ToDelimitedString<T>(this IEnumerable<T> input, string delimiter)
         {
             var output = new StringBuilder();
