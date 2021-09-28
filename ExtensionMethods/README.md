@@ -52,3 +52,4 @@ There are 2 ways to use extension method.
 
 1. Extension methods must be public static methods in a public static class.  The class name itself is unimportant.
 2. Extension methods are declared by including the this keyword in front of the first parameter.  The this keyword can only be used with the first parameter. 
+3.
