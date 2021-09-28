@@ -10,6 +10,7 @@ namespace ExtensionMethods
     {
         static void Main(string[] args)
         {
+            //start ... :) 
             List<string> Names = GetNames();
             //Extension methods are like other methods. so we can use like this.
             Console.WriteLine(MyExtensionMethod.ToDelimitedString(Names, ", "));
